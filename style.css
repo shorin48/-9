@@ -12,7 +12,7 @@ header {
 main {
   width: 960px;
   margin: 50px auto;
-  display: flex;
+  display: block;
 }
 
 .step-box {
@@ -73,9 +73,23 @@ footer {
   .footer{
     width:100%;
   }
-
+  .main-visual{
+    width:100%;
+    margin-bottom:20px;
+  }
+  .step-img1{
+    height:150px;
+  }
   .main{
-
+    width:100%;
+    margin-bottom:50px;
+  }
+  .step-img{
+    height:150px;
+  }
+  .step-box{
+    width:90%;
+    margin-bottom:20px;
   }
 }
 

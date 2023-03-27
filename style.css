@@ -64,3 +64,31 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+
+@media screen and (max-width:768px){
+  .header{
+    width:100%;
+  }
+  .footer{
+    width:100%;
+  }
+  .main-visual{
+    width:100%;
+    margin-bottom:20px;
+  }
+  .step-img1{
+    height:150px;
+  }
+  .main{
+    width:100%;
+    margin-bottom:50px;
+  }
+  .step-img{
+    height:150px;
+  }
+  .step-box{
+    width:90%;
+    margin-bottom:20px;
+  }
+}
+

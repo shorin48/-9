@@ -23,9 +23,6 @@ main {
   background-color: #eee;
 }
 
-.step-box:last-child {
-  margin-right: 0;
-}
 
 .step-img1 {
   height: 150px;
@@ -82,13 +79,16 @@ footer {
   .main{
     width:100%;
     margin-bottom:50px;
+    display:block;
   }
-  .step-img{
-    height:150px;
-  }
+
   .step-box{
     width:90%;
-    margin-bottom:20px;
+    margin:20px 20px;
+  }
+
+  .step-img{
+    height:150px;
   }
 }
 
